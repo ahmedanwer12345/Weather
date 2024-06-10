@@ -1,0 +1,47 @@
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 80%;
+  font-size: 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.app {
+  background-image: url('../assets/warm-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+.app.warm {
+  background-image: url('../assets/warm-bg.jpg');
+}
+
+.weather-data {
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  font-size: 80px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 50px auto;
+}
